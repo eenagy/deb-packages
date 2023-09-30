@@ -1,0 +1,15 @@
+Source: hello-world
+Section: net
+Priority: optional
+Maintainer: John Doe <johndoe@example.com>
+Build-Depends: debhelper (>= 9),
+               debhelper (>= 12.1.1)
+
+Package: hello-world
+Priority: optional
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: Example hello world
+ Lorem Ipsum
+ 

@@ -1,0 +1,12 @@
+# Used for all in control file
+maintainer = "John Doe <johndoe@example.com>"
+
+# Each source defines a different source directory
+[sources.hello-world]
+# Upstream version
+version = "0.1"
+section = "net"
+# Packages available within the source
+# .sps files must be placed in the same directory this file is in
+packages = ["hello-world"]
+
